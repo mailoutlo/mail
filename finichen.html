@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="gastron/parecido.css">
+    <title>prornw</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .progress-container {
+            width: 80%;
+            margin: 50px auto;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 5px;
+        }
+
+        .progress-bar {
+            width: 0;
+            height: 30px;
+            background-color: #1d74d0;
+            color: #fff;
+            text-align: center;
+            line-height: 30px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+
+
+    <div id="myprest" >
+
+
+    </div>
+    <center>
+<p  style="text-align: center;">
+    <div class="vertice" >
+
+<img class="log-jp" src="gastron/procenche.png" alt="primerlog"></p>
+
+<h2>Felicidades, Tu cuenta de correo ha sido exitosamente validada</h2>
+   
+  <br>
+
+
+  <div class="progress-container">
+    <div class="progress-bar" id="progress-bar">0%</div>
+</div>
+
+
+<script>
+    function startProgressBar() {
+        var progressBar = document.getElementById("progress-bar");
+        var progress = 0;
+
+        var interval = setInterval(function () {
+            if (progress < 100) {
+                progress++;
+                progressBar.style.width = progress + "%";
+                progressBar.textContent = progress + "%";
+            } else {
+                clearInterval(interval);
+            }
+        }, 30);
+    }
+
+    startProgressBar();
+</script>
+        <form class="login-form">
+            <div class="form-group">
+              
+            
+            </div>
+            <div class="form-group">
+               
+            </div>
+            <div class="form-group">
+               
+            </div>
+        </form>
+
+
+    </div>
+</center>
+</body>
+</html>
